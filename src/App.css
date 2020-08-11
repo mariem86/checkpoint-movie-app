@@ -1,0 +1,76 @@
+
+.App {
+  text-align: center;
+
+ 
+  background-color: #9499a3;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+  padding: 20px;
+  
+}
+
+
+
+.spinner {
+  height: 80px;
+  margin: auto;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+* {
+  box-sizing: border-box;
+}
+.movie-liste{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+}
+.movie-card {
+  padding: 5px 25px 10px 25px;
+  max-width: 25%;
+}
+.add-btn{
+  background-color: crimson;
+   font-size: 16px;
+   padding: 8px;
+   margin: 0 10px 30px 10px;
+ 
+ }
+ input[type="submit"] {
+  padding: 5px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  width: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #282c34;
+  color: rgb(236, 223, 206);
+}
+ input[type="text"]{
+  width: 40%;
+  min-width: 170px;
+}
+
+@media screen and (min-width: 694px) and (max-width: 915px) {
+  .movie {
+    max-width: 33%;
+  }
+}
+
+@media screen and (min-width: 652px) and (max-width: 693px) {
+  .movie {
+    max-width: 50%;
+  }
+}
