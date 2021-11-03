@@ -3,7 +3,7 @@
   text-align: center;
 
  
-  background-color: #9499a3;
+  background-color: #696c72;
   
   display: flex;
   flex-direction: column;
@@ -40,8 +40,8 @@
 }
 .add-btn{
   background-color: crimson;
-   font-size: 16px;
-   padding: 8px;
+   font-size: 30px;
+   padding: 20px;
    margin: 0 10px 30px 10px;
  
  }
@@ -73,4 +73,59 @@ input[type="submit"]:hover {
   .movie {
     max-width: 50%;
   }
+}
+.watch-btn {
+  display: block;
+  border: 1px solid #fe4141;
+  border-radius: 5px;
+  padding: 0px;
+  width: 100px;
+  cursor: pointer;
+}
+.watch-btn:hover{
+  background-color: #fe4141;
+
+}
+.watch-btn:hover h3{
+  color: #e7e7e7;
+}
+.action-row {
+  margin-top: -15px;
+}
+.summary-row {
+  margin-top: 12px;
+}
+.summary-row p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #e7e7e78a;
+  text-align: justify;
+  line-height: 1.8;
+}
+/* TYPOGRAPHY ENDS */
+
+/** GRID STARTS **/
+
+.thegrid {
+  margin: 0 auto;
+}
+
+.elements-distance {
+  margin: 0px;
+}
+
+.mr-grid {
+  width: 100%;
+}
+.mr-grid:before,
+.mr-grid:after {
+  content: '';
+  display: table;
+}
+.mr-grid:after {
+  clear: both;
+}
+.mr-grid {
+  *zoom: 1;
 }
